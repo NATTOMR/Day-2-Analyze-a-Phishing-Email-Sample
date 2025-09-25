@@ -1,4 +1,4 @@
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ee60641a-0c54-4618-b948-4a7f8b8ad24d" /># Day-2-Analyze-a-Phishing-Email-Sample
+# Analyze a phishing Email
 ## Objectives
 1. [Introduction](#introduction)
 2. [Sample phishing email](#samplephishingemail)
@@ -51,6 +51,6 @@ It's called "phishing" because the criminals are fishing for your sensitive data
 - In the box, paste your header.
 - Click Analyze the header above.
 
-  ![image](https://github.com/NATTOMR/Day-2-Analyze-a-Phishing-Email-Sample/blob/main/Anatomy-of-a-Phishing-Email.webp)
+  ![image](https://github.com/NATTOMR/Day-2-Analyze-a-Phishing-Email-Sample/blob/main/Screenshot%202025-09-25%20100140.png)
 
-   ![image](https://github.com/NATTOMR/Day-2-Analyze-a-Phishing-Email-Sample/blob/main/Anatomy-of-a-Phishing-Email.webp)
+   ![image](https://github.com/NATTOMR/Day-2-Analyze-a-Phishing-Email-Sample/blob/main/Screenshot%202025-09-25%20095444.png)
