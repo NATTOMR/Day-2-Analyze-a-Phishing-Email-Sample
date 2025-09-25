@@ -40,7 +40,7 @@ It's called "phishing" because the criminals are fishing for your sensitive data
 
 
 ## Tools: Email client or saved email file (text), free online header analyzer
- ### Analyze an email header
+ ### Analyze an email header( Google Admin Toolbox Messageheader)
  
 - On your computer, open Gmail.
 - Open the email that you want to analyze.
@@ -54,3 +54,81 @@ It's called "phishing" because the criminals are fishing for your sensitive data
   ![image](https://github.com/NATTOMR/Day-2-Analyze-a-Phishing-Email-Sample/blob/main/Screenshot%202025-09-25%20100140.png)
 
    ![image](https://github.com/NATTOMR/Day-2-Analyze-a-Phishing-Email-Sample/blob/main/Screenshot%202025-09-25%20095444.png)
+
+  ## Deliverables: A report listing phishing indicators found
+
+ ## 📄 Phishing Analysis Report
+
+- Subject: INTERNSHIP OFFER LETTERS
+- From: ELEVATE LABs <hr@elevate-labs.info>
+- To: elevatelabshire@gmail.com (with BCC: nattochakma29@gmail.com)
+- Date: Sat, 20 Sep 2025
+
+## 1. Header Analysis
+
+- Return-Path: <hr@elevate-labs.info>
+
+- SPF: ✅ Pass (209.85.220.41 authorized to send for elevate-labs.info).
+
+- DKIM: ✅ Pass (d=elevate-labs.info; s=google).
+
+- DMARC: Implicit pass (alignment seems OK).
+
+- Received chain: Message sent through Google’s mail infrastructure (mail-sor-f41.google.com), consistent with SPF pass.
+
+- Message-ID: <CAP_w3LED-H5rPP_Kg6WAhn7dQ7OSHJWXabWNxgiMaD3jVikX7w@mail.gmail.com> — suspicious because the Message-ID is a Gmail domain, while sender domain is elevate-labs.info.
+
+
+
+## 2. Body Content Indicators
+
+- Urgent / enticing language: “CONGRATS !!!”, “Congratulations! You’ve been selected” → strong emotional lure.
+
+- Suspicious instructions: Asks recipient to use free online PDF splitter tools → unusual and unsafe request (normal HR would provide a personalized file directly).
+
+- Attachments: Includes cyber 9.pdf. Phishing/malware risk if PDF contains malicious content or asks for credentials.
+
+- Unsubscribe link: https://multisend-unsubscribe.gmail.com/$placeholder → placeholder unsub link (non-functional), suspicious.
+
+- Generic greeting: “Dear Intern” → no personalization, typical of mass phishing.
+
+## 3. Indicators of Potential Phishing
+
+-Generic greeting — not personalized.
+
+- Excessive enthusiasm (“CONGRATS !!!”) — common in scams.
+
+- Suspicious Message-ID mismatch — Gmail-based ID with a custom domain sender.
+
+- Unusual request — asking user to split the PDF themselves.
+
+- Attachment included — potential malware or credential-harvesting doc.
+
+- Placeholder unsubscribe link — unprofessional and suspicious.
+
+## 4. Risk Assessment
+
+- Technical checks (SPF/DKIM/DMARC): Pass ✅
+
+- Content red flags: Multiple ❌
+
+- Overall verdict: ⚠️ Medium-to-High Risk (Potential Phishing)
+
+- Even though SPF and DKIM pass (suggesting the domain elevate-labs.info is authorized to send), the content and formatting strongly resemble a phishing/mass scam campaign.
+
+## 5. Recommended Actions
+
+- Do NOT open the attached PDF unless sandboxed or scanned with antivirus.
+
+- Verify the sender domain:
+
+- Check if elevate-labs.info is a legitimate registered company domain.
+
+- Look up WHOIS records — new or obscure domain = higher risk.
+
+- Contact organization directly: If Elevate Labs is real, verify by official website/contact page — not by replying to this email.
+
+- Report the email as phishing in Gmail.
+
+- Preserve evidence: Save the full .eml with headers if escalation is needed.
+  
