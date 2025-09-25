@@ -24,10 +24,10 @@ It's called "phishing" because the criminals are fishing for your sensitive data
 - SMiShing is a kind of phishing that takes place over text messages. The criminal sends you a text message pretending to be from a company like your bank asking for account information or they might send you links to websites where they can steal it. A lot of times the criminals will pretend to be with Google or Microsoft so it's even harder to discern whether or not the message is fake.
 
   ## Sample phishing email
-  ![image](https://github.com/NATTOMR/images/blob/main/Screenshot%202025-07-31%20174447.png)
+  ![image](https://github.com/NATTOMR/Day-2-Analyze-a-Phishing-Email-Sample/blob/main/M-Tech-Phishing-Emails-1024x724.jpg)
 
   ## Identify suspicious links or attachments
-   ![image](https://github.com/NATTOMR/images/blob/main/Screenshot%202025-07-31%20174447.png)
+   ![image](https://github.com/NATTOMR/Day-2-Analyze-a-Phishing-Email-Sample/blob/main/Anatomy-of-a-Phishing-Email.webp)
 
   ## Look for urgent or threatening language in the email body
 ### Phishing emails depend heavily on the manipulation of human emotions. In an attempt to avoid a practical response, phishing emails often use urgent or threatening language to make the target respond quickly. It's common for these emails to say there is a problem that must be resolved quickly to avoid consequences. Some examples of common language in phishing emails include:
