@@ -1,4 +1,4 @@
-# Day-2-Analyze-a-Phishing-Email-Sample
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ee60641a-0c54-4618-b948-4a7f8b8ad24d" /># Day-2-Analyze-a-Phishing-Email-Sample
 ## Objectives
 1. [Introduction](#introduction)
 2. [Sample phishing email](#samplephishingemail)
@@ -37,3 +37,20 @@ It's called "phishing" because the criminals are fishing for your sensitive data
 - Include a link to make a payment for products or services that have supposedly already been received
 - Claim there's a problem with account or payment information
 - Include a fake order confirmation or invoice
+
+
+## Tools: Email client or saved email file (text), free online header analyzer
+ ### Analyze an email header
+ 
+- On your computer, open Gmail.
+- Open the email that you want to analyze.
+- Next to Reply , click More Moreand then Show original.
+- In a new window, the full header shows.
+- Click Copy to clipboard.
+- Open Google Admin Toolbox Messageheader.
+- In the box, paste your header.
+- Click Analyze the header above.
+
+  ![image](https://github.com/NATTOMR/Day-2-Analyze-a-Phishing-Email-Sample/blob/main/Anatomy-of-a-Phishing-Email.webp)
+
+   ![image](https://github.com/NATTOMR/Day-2-Analyze-a-Phishing-Email-Sample/blob/main/Anatomy-of-a-Phishing-Email.webp)
